@@ -48,7 +48,7 @@ class App extends Component {
 
 		return (
 			<div className="container">
-				<div className="header">Simple & Powerful Todo Application</div>
+				<div className="header">TodoList</div>
 				{notes}
 				<div className="btn" onClick={this.addNote.bind(this)}>
 					+
